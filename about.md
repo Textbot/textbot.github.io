@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Textbot
+title: About
 ---
 ## About
 Textbot is ...
