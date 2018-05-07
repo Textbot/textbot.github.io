@@ -3,7 +3,8 @@ layout: page
 title: Contact
 ---
 ## Contact
-... to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+
+If you have any questions, write us on [textbot@yandex.ru](textbot@yandex.ru).
 
 For further details on Textbot, please visit the [repository on Github](https://github.com/Textbot/).
 
