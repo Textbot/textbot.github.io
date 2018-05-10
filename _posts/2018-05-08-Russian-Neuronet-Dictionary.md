@@ -16,4 +16,4 @@ Seq2Seq (от англ. Sequence to Sequence)
 
 Skip-грамма (от англ. Skip-gram)
 
-
+SPINN-сеть (от англ. Stack-Augmented Parser-Interpreter Neural Network)
