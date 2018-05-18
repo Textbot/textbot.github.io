@@ -24,4 +24,5 @@ SPINN-сеть (от англ. Stack-Augmented Parser-Interpreter Neural Network
 
 Партия обучающих данных (от англ. Batch)
 
-
+BLEU - метод автоматической оценки качества машинного перевода
+    Ссылка: http://www.aclweb.org/anthology/P02-1040.pdf
