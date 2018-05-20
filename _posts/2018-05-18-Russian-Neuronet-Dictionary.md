@@ -26,3 +26,7 @@ SPINN-сеть (от англ. Stack-Augmented Parser-Interpreter Neural Network
 
 BLEU - метод автоматической оценки качества машинного перевода
     Ссылка: http://www.aclweb.org/anthology/P02-1040.pdf
+
+Сколь угодно большой вход (размер выборки) (от англ. arbitrarily distant inputs)
+
+Усеченное обратное прохождение (от англ. Truncated Backpropagation) -  метод обратного распространения ошибки в рекуррентных нейросетях, основанный на 
