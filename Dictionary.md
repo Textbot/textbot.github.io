@@ -14,9 +14,9 @@ title: Dictionary
 
 **Двунаправленная РНС** (от англ. Bidirectional RNN<a name="BidirectionalRNN"></a>) - РНС, представляющая собой две отдельных рекуррентных подсети, первая из которых проходит входных значения "слева-направа", а вторая - "справа-налево", выходные значения которых "объединяются".
 
-**Seq2Seq** (от англ. Sequence to Sequence<a name="Seq2Seq"></a) - РНС, преобразующая исходную последовательность в результирующую.
+**Seq2Seq** (от англ. Sequence to Sequence<a name="Seq2Seq"></a>) - РНС, преобразующая исходную последовательность в результирующую.
 
-**Skip-грамма** (от англ. Skip-gram)
+**Skip-грамма** (от англ. Skip-gram<a name="Skip-gram"></a>)
 
 **SPINN-сеть** (от англ. Stack-Augmented Parser-Interpreter Neural Network)
 
