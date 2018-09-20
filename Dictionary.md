@@ -4,7 +4,7 @@ title: Dictionary
 
 ### Русскоязычный словарь по нейронным сетям  
   
-[Word Embedding](#WordEmbedding) | [Continuous Bag of Words [CBOW]](#CBOW) | [Recurrent Neural Network [RNN]](#RNN) | [Truncated Backpropagation](#TruncatedBackpropagation) | 
+[Word Embedding](#WordEmbedding) | [Continuous Bag of Words [CBOW]](#CBOW) | [Recurrent Neural Network [RNN]](#RNN) | [Bidirectional RNN](#BidirectionalRNN) | [Seq2Seq](#Seq2Seq) | [Skip-gram](#Skip-gram) | [Truncated Backpropagation](#TruncatedBackpropagation) | 
   
 **Векторное представление слова** (от англ. Word Embedding<a name="WordEmbedding"></a>) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
 
@@ -12,9 +12,9 @@ title: Dictionary
 
 **Рекуррентная нейронная сеть** [РНС] (от англ. Recurrent Neural Network [RNN]<a name="RNN"></a>) - нейронная сеть, обрабатывающая входные данные последовательно и текущее состояние которой использует результаты предыдущей итерации
 
-**Двунаправленная РНС** (от англ. Bidirectional RNN) - РНС, представляющая собой две отдельных рекуррентных подсети, первая из которых проходит входных значения "слева-направа", а вторая - "справа-налево", выходные значения которых "объединяются".
+**Двунаправленная РНС** (от англ. Bidirectional RNN<a name="BidirectionalRNN"></a>) - РНС, представляющая собой две отдельных рекуррентных подсети, первая из которых проходит входных значения "слева-направа", а вторая - "справа-налево", выходные значения которых "объединяются".
 
-**Seq2Seq** (от англ. Sequence to Sequence) - РНС, преобразующая исходную последовательность в результирующую.
+**Seq2Seq** (от англ. Sequence to Sequence<a name="Seq2Seq"></a) - РНС, преобразующая исходную последовательность в результирующую.
 
 **Skip-грамма** (от англ. Skip-gram)
 
