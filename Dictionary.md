@@ -4,7 +4,7 @@ title: Dictionary
 
 ### Русскоязычный словарь по нейронным сетям  
   
-[Word Embedding](#WordEmbedding) | [Continuous Bag of Words [CBOW]](#CBOW) | [Recurrent Neural Network [RNN]](#RNN) | [Bidirectional RNN](#BidirectionalRNN) | [Seq2Seq](#Seq2Seq) | [Skip-gram](#Skip-gram) | [Truncated Backpropagation](#TruncatedBackpropagation) | 
+[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Recurrent Neural Network [RNN]](#RNN) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [Skip-gram](#Skip-gram) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ 
   
 **Векторное представление слова** (от англ. Word Embedding<a name="WordEmbedding"></a>) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
 
