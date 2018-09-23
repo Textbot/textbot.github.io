@@ -4,35 +4,34 @@ title: Dictionary
 
 ### Русскоязычный словарь по нейронным сетям  
   
-[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Recurrent Neural Network [RNN]](#RNN) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [Skip-gram](#Skip-gram) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ 
+[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [Skip-gram](#Skip-gram) \ [SPINN](#SPINN) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Arbitrarily distant inputs](#ArbitrarilyDistantInputs) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ 
   
-**Векторное представление слова** (от англ. Word Embedding<a name="WordEmbedding"></a>) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
+<a name="WordEmbedding"></a>**Векторное представление слова** (от англ. Word Embedding) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
 
-**Непрерывный мешок слов** (от англ. Continuous Bag of Words [CBOW]<a name="CBOW"></a>)
+<a name="CBOW"></a>**Непрерывный мешок слов** (от англ. Continuous Bag of Words [CBOW])
 
-**Мешок n-грамм** (от англ. Bag of n-grams) Ссылка: <https://fasttext.cc/docs/en/supervised-tutorial.html#advanced-readers-what-is-a-bigram>
+<a name="BagOfNGrams"></a>**Мешок n-грамм** (от англ. Bag of n-grams) Ссылка: <https://fasttext.cc/docs/en/supervised-tutorial.html#advanced-readers-what-is-a-bigram>
 
-**Рекуррентная нейронная сеть** [РНС] (от англ. Recurrent Neural Network [RNN]<a name="RNN"></a>) - нейронная сеть, обрабатывающая входные данные последовательно и текущее состояние которой использует результаты предыдущей итерации
+<a name="RNN"></a>**Рекуррентная нейронная сеть** [РНС] (от англ. Recurrent Neural Network [RNN]) - нейронная сеть, обрабатывающая входные данные последовательно и текущее состояние которой использует результаты предыдущей итерации
 
-**Двунаправленная РНС** (от англ. Bidirectional RNN<a name="BidirectionalRNN"></a>) - РНС, представляющая собой две отдельных рекуррентных подсети, первая из которых проходит входных значения "слева-направа", а вторая - "справа-налево", выходные значения которых "объединяются".
+<a name="BidirectionalRNN"></a>**Двунаправленная РНС** (от англ. Bidirectional RNN) - РНС, представляющая собой две отдельных рекуррентных подсети, первая из которых проходит входных значения "слева-направа", а вторая - "справа-налево", выходные значения которых "объединяются".
 
-**Seq2Seq** (от англ. Sequence to Sequence<a name="Seq2Seq"></a>) - РНС, преобразующая исходную последовательность в результирующую.
+<a name="Seq2Seq"></a>**Seq2Seq** (от англ. Sequence to Sequence) - РНС, преобразующая исходную последовательность в результирующую.
 
-**Skip-грамма** (от англ. Skip-gram<a name="Skip-gram"></a>)
+<a name="Skip-gram"></a>**Skip-грамма** (от англ. Skip-gram)
 
-**SPINN-сеть** (от англ. Stack-Augmented Parser-Interpreter Neural Network)
+<a name="SPINN"></a>**SPINN-сеть** (от англ. Stack-Augmented Parser-Interpreter Neural Network)
 
-**Состояние сети** (от англ. Network State)
+<a name="NetworkState"></a>**Состояние сети** (от англ. Network State)
 
-**Партия обучающих данных** (от англ. Batch)
+<a name="Batch"></a>**Партия обучающих данных** (от англ. Batch)
 
-**BLEU** - метод автоматической оценки качества машинного перевода
+<a name="BLEU"></a>**BLEU** - метод автоматической оценки качества машинного перевода
         Ссылка: <http://www.aclweb.org/anthology/P02-1040.pdf>
 
-**Сколь угодно большой вход (размер выборки)** (от англ. arbitrarily distant inputs)
+<a name="ArbitrarilyDistantInputs"></a>**Сколь угодно большой вход (размер выборки)** (от англ. Arbitrarily distant inputs)
 
-**Усеченное обратное прохождение** (от англ. Truncated Backpropagation<a name="TruncatedBackpropagation"></a>) -  метод обратного распространения ошибки в рекуррентных нейросетях, основанный на усечении последовательности элементов, участвующих с распространении ошибки.
-        Ссылка: <https://www.youtube.com/watch?v=1xO37Tph57Y>
+<a name="TruncatedBackpropagation"></a>**Усеченное обратное прохождение** (от англ. Truncated Backpropagation) -  метод обратного распространения ошибки в рекуррентных нейросетях, основанный на усечении последовательности элементов, участвующих с распространении ошибки. Ссылка: <https://www.youtube.com/watch?v=1xO37Tph57Y>
 
 **Унитарный вектор** (от англ. One-hot vector) - булев вектор, содержащий только одну единицу. Такой вектор иногда называют прямым унитарным вектором. В свою очередь, вектор, содержащий только один нуль, называют обратным унитарным вектором.
 
