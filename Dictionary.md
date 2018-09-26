@@ -4,7 +4,7 @@ title: Dictionary
 
 ### Русскоязычный словарь по нейронным сетям  
   
-[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [Skip-gram](#Skip-gram) \ [SPINN](#SPINN) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Arbitrarily distant inputs](#ArbitrarilyDistantInputs) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ 
+[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [LSTM](#LSTM) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [Skip-gram](#Skip-gram) \ [SPINN](#SPINN) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Arbitrarily distant inputs](#ArbitrarilyDistantInputs) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ 
   
 <a name="WordEmbedding"></a>**Векторное представление слова** (от англ. Word Embedding) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
 
@@ -13,6 +13,8 @@ title: Dictionary
 <a name="BagOfNGrams"></a>**Мешок n-грамм** (от англ. Bag of n-grams) Ссылка: <https://fasttext.cc/docs/en/supervised-tutorial.html#advanced-readers-what-is-a-bigram>
 
 <a name="RNN"></a>**Рекуррентная нейронная сеть** [РНС] (от англ. Recurrent Neural Network [RNN]) - нейронная сеть, обрабатывающая входные данные последовательно и текущее состояние которой использует результаты предыдущей итерации
+
+<a name="LSTM"></a>**LSTM-сеть** [РНС с долгой кратковременной памятью] (от англ. Long Short-term Memory Recurrent Neural Network [LSTM-RNN]) - рекуррентная нейронная сеть, обладающая одним или несколькими блоками долгой кратковременной памяти, позволяющими ей, в отличие от классических РНС, моделировать меры вхождения нового значения в память, сохранения значения в памяти и участия выходного значения в активации последующих элементов сети.
 
 <a name="BidirectionalRNN"></a>**Двунаправленная РНС** (от англ. Bidirectional RNN) - РНС, представляющая собой две отдельных рекуррентных подсети, первая из которых проходит входных значения "слева-направа", а вторая - "справа-налево", выходные значения которых "объединяются".
 
