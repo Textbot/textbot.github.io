@@ -4,11 +4,11 @@ title: Dictionary
 
 ### Русскоязычный словарь по нейронным сетям  
   
-[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Skip-gram](#Skip-gram) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [LSTM](#LSTM) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [SPINN](#SPINN) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Arbitrarily distant inputs](#ArbitrarilyDistantInputs) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ 
+[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Skip-gram](#Skip-gram) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [LSTM](#LSTM) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [SPINN](#SPINN) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Arbitrarily distant inputs](#ArbitrarilyDistantInputs) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ [Window](#Window)
   
 <a name="WordEmbedding"></a>**Векторное представление слова** (от англ. Word Embedding) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
 
-<a name="CBOW"></a>**Непрерывный мешок слов** (от англ. Continuous Bag of Words [CBOW]) - один из двух основных подходов (помимо Skip-gram) к построению нейросети, осуществляющей векторное представление слов. В основу подхода положена зависимость векторного представления слова от суммы векторных представлений слов из его окрестности.
+<a name="CBOW"></a>**Непрерывный мешок слов** (от англ. Continuous Bag of Words [CBOW]) - один из двух основных подходов (помимо Skip-gram) к построению нейросети, осуществляющей векторное представление слов. В основу подхода положена зависимость векторного представления слова от суммы векторных представлений слов из его [окна](#Window).
 
 <a name="Skip-gram"></a>**Skip-грамма** (от англ. Skip-gram)
 
@@ -39,7 +39,7 @@ title: Dictionary
 
 **Окрестность вектора** (от англ. Vacinity, Neighbourhood) - точки в n-мерном векторном пространстве, достаточно близкие к заданной. Используются, например, в векторных представления слов, когда необходимо найти слова, наиболее близкие к некоторому вектору. Если вектора некоторых слов достаточно близки к текущему вектору, мы можем называть их окрестностью данного вектора. Окрестность вектора может задаваться некоторым пороговым значением, однако, чаще всего, под окрестность понимается список из m наиболее близких векторов. 
 
-**Окно вектора** (от англ. Window) ...
+<a name="Window"></a>**Окно вектора** (от англ. Window) - список из n слов, находящихся в предложении слева от текущего слова, и n слов, находящихся справа от него.
 
 **Функция активации слоя нейронов** (от англ. Activation function) - отображение, ставящее в соответствие множеству входных импульсов выходной импульс для каждого нейрона слоя.
 
