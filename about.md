@@ -3,4 +3,11 @@ layout: page
 title: About
 ---
 ## About
-Textbot is the technology for deep semantic analysis and synthesis of text.
+(En)Textbot is the technology for deep semantic analysis and synthesis of text.
+(Ru)Textbot - технология глубинного семантического анализа и синтеза текста.
+
+(En) Postulates:
+1. ...
+
+(Ru) Постулаты:
+1. У интеллектуальных систем существует некоторый внутренний язык для представления и обработки знаний, отличный от любого естественного языка или любой другой метамодели представления информации и средств оперирования ими.
