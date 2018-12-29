@@ -114,6 +114,6 @@ title: Dictionary
 **Метод k-средних** (от англ. k-Means Clustering) - метод кластеризации и сжатия многомерных данных, основанный на выделении некоторого наперед заданного числа (обычно кратно типу данных, например 256 для типа byte) точек, являющихся центроидами для своих кластеров.
 Ссылка: <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html>
 
-**Быстрый метод k-средних** (от англ. Fast k-Means Clustering или Mini-Batch k-Means Clustering) - быстрый метод кластеризации и сжатия многомерных данных 
+**Быстрый метод k-средних** (от англ. Fast k-Means Clustering или Mini-Batch k-Means Clustering) - быстрый метод кластеризации и сжатия многомерных данных, в основу которого положен поиск центроидов в небольших случайно выбранных партиях данных.
 Ссылка 1: <http://www.eecs.tufts.edu/~dsculley/papers/fastkmeans.pdf>
 Ссылка 2: <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.MiniBatchKMeans.html>
