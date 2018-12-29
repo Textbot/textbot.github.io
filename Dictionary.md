@@ -105,8 +105,15 @@ title: Dictionary
 
 **Сжатие модели векторных представлений** (от англ. Model Compression) - процесс понижения емкостных характеристик модели векторных представлений.
 
-**Квантование векторных представлений** (от англ. Vector Quantization) - процесс (векторного) квантования точек пространства векторных представлений. Обычно используется для сжатия модели векторных представлений.
+**Векторное квантование** (от англ. Vector Quantization) - процесс квантования точек многомерного векторного пространства. Используется в т.ч. для сжатия модели векторных представлений.
 
 **Продукционное квантование** (от англ. Product Quantization / Product Quantizer) - метод сжатия многомерных данных с использованием центроидов.
 Ссылка 1: <http://mccormickml.com/2017/10/13/product-quantizer-tutorial-part-1/>
 Ссылка 2: <https://github.com/facebookresearch/fastText/blob/25d0bb04bf43d8b674fe9ae5722ef65a0856f5d6/website/blog/2017-10-02-blog-post.md>
+
+**Метод k-средних** (от англ. k-Means Clustering) - метод кластеризации и сжатия многомерных данных, основанный на выделении некоторого наперед заданного числа (обычно кратно типу данных, например 256 для типа byte) точек, являющихся центроидами для своих кластеров.
+Ссылка: <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html>
+
+**Быстрый метод k-средних** (от англ. Fast k-Means Clustering или Mini-Batch k-Means Clustering) - быстрый метод кластеризации и сжатия многомерных данных 
+Ссылка 1: <http://www.eecs.tufts.edu/~dsculley/papers/fastkmeans.pdf>
+Ссылка 2: <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.MiniBatchKMeans.html>
