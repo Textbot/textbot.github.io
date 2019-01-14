@@ -117,3 +117,5 @@ title: Dictionary
 **Быстрый метод k-средних** (от англ. Fast k-Means Clustering или Mini-Batch k-Means Clustering) - быстрый метод кластеризации и сжатия многомерных данных, в основу которого положен поиск центроидов в небольших случайно выбранных партиях данных.
 Ссылка 1: <http://www.eecs.tufts.edu/~dsculley/papers/fastkmeans.pdf>
 Ссылка 2: <https://scikit-learn.org/stable/modules/generated/sklearn.cluster.MiniBatchKMeans.html>
+
+**Диаграмма Вороного** (от англ. Voronoi Cell) - разбиение k-мерного пространства на области ...
