@@ -1,2 +1,0 @@
----title: How To Get Morphology using only Word Vectors? ---
----title: Морфологический анализ с использованием только векторных представлений ---
