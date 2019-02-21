@@ -10,6 +10,8 @@ Nikita Nikitin, Textbot founder and header: [nikita@textbot.org](mailto:nikita@t
 
 Mikhail Menkin, Textbot cofounder: [mikhail@textbot.org](mailto:mikhail@textbot.org)
 
+**Если ты исследователь в области искусственного интеллекта или специалист по созданию и продвижению умных приложений, ботов, приглашаем стать часть нашей команды. Пиши на [nikita@textbot.org](mailto:nikita@textbot.org)**
+
 For further details on Textbot, please visit the [repository on Github](https://github.com/Textbot/)
 
 ![Textbot](img/Textbot.png "Textbot Logo")
