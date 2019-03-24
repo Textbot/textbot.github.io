@@ -53,4 +53,12 @@ Keras-GPT-2 / GPT-2 https://github.com/CyberZHG/keras-gpt-2
 
 Tensorflow-GPT-2 / GPT-2 https://github.com/openai/gpt-2/blob/master/src/model.py
 
+Ссылки на Colab'ы:
+
+keras-bert prediction with Cloud TPU / BERT https://colab.research.google.com/github/HighCWu/keras-bert-tpu/blob/master/demo/load_model/load_and_predict.ipynb#scrollTo=uA4moo4dpLBr
+
+Predicting Movie Reviews with BERT on TF Hub / BERT https://colab.research.google.com/github/google-research/bert/blob/master/predicting_movie_reviews_with_bert_on_tf_hub.ipynb#scrollTo=LL5W8gEGRTAf
+
+bertviz_detail_colab / BERT https://colab.research.google.com/drive/1Nlhh2vwlQdKleNMqpmLDBsAwrv_7NnrB#scrollTo=abSHyknGrI7b
+
 
