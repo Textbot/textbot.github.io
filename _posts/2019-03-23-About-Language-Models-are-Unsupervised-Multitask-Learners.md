@@ -47,4 +47,10 @@ Language Models are Unsupervised Multitask Learners / GPT-2 https://d4mucfpksywv
 
 Keras-BERT / BERT https://github.com/CyberZHG/keras-bert/blob/630bda7f62bcf12a75324e75a19fe937f1ba3edc/tests/test_bert.py
 
+TensorFlow-BERT / BERT https://github.com/google-research/bert
+
+Keras-GPT-2 / GPT-2 https://github.com/CyberZHG/keras-gpt-2
+
+Tensorflow-GPT-2 / GPT-2 https://github.com/openai/gpt-2/blob/master/src/model.py
+
 
