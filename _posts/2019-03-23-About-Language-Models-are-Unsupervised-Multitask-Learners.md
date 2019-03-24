@@ -22,7 +22,7 @@ II. Что такое "attention head"?
 1. Для большинства задач NLP однонаправленность лучше двунаправленности.
 
 
-Ссылки:
+Ссылки на статьи:
 
 Jesse Vig / GPT-2 https://towardsdatascience.com/openai-gpt-2-understanding-language-generation-through-visualization-8252f683b2f8
 
@@ -38,4 +38,13 @@ Transformer: A Novel Neural Network Architecture for Language Understanding / Tr
 
 Jesse Vig / BERT https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77
 https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1
+
+DessertFlow / BERT https://habr.com/ru/post/436878/
+
+Language Models are Unsupervised Multitask Learners / GPT-2 https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf
+
+Ссылки на исходники:
+
+Keras-BERT / BERT https://github.com/CyberZHG/keras-bert/blob/630bda7f62bcf12a75324e75a19fe937f1ba3edc/tests/test_bert.py
+
 
