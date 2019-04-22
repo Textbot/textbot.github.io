@@ -1,8 +1,12 @@
-Classification
+State-of-the-art (SOTA) NLP problems status
+
+Классификация / Classification
+  Sentiment analysis
 ...
-{Stanford} Question Answering Dataset (SQuAD) 
+Ответ на вопрос по тексту / {Stanford} Question Answering Dataset (SQuAD) 
 ...
-Named-entity recognition (NER)
+Разпознавание Named-entity recognition (NER)
+  Part-of-speach (POS)
 ...
 Paraphrasing
 ...
