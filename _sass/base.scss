@@ -16,6 +16,12 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
   border: 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+	
 /*- Base color -*/
 
 $main-color: #008A3C;
