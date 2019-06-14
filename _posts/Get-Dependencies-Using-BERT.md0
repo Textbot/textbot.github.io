@@ -15,5 +15,22 @@ words - список строк, представляющих предложен
 
 Аргументы:
 words - список строк, представляющих предложение;
-prediction - numpy-матрица формы (len(words), len(words)), представляющая расстояния между токенами
-sent_index - индекс предложения
+prediction - numpy-матрица формы (len(words), len(words)), представляющая расстояния между токенами;
+sent_index - индекс предложения.
+
+Метод def print_depth_image(args, words, prediction, sent_index) позволяет нам получить визуальную модель глубины дерева зависимостей.
+
+Аргументы:
+words - список строк, представляющих предложение;
+prediction - numpy-матрица формы (len(words),), представляющая глубину каждого токена в дереве зависимостей;
+sent_index - индекс предложения.
+
+Метод def report_on_stdin(args) запускает обученный структурный зонд (structural probe), получает модель зависимостей и передает результаты 
+в print_tikz, print_distance_image, print_depth_image.
+
+Аргументы:
+
+
+Интересно:
+untok_tok_mapping = data.SubwordDataset.match_tokenized_to_untokenized(tokenized_sent, untokenized_sent) - здесь, судя по всему, словоформам,
+полученным классическим разделителем, ставятся в соответствие один или несколько токенов, полученных токенайзером.
