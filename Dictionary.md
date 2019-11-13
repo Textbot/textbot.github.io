@@ -4,7 +4,7 @@ title: Dictionary
 
 ### Русскоязычный словарь по нейронным сетям  
   
-[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Skip-gram](#Skip-gram) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [LSTM](#LSTM) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ [One-hot vector](#One-hot_vector) \ [Neighbourhood](#Neighbourhood) \ [Window](#Window) \ [Activation function](#ActivationFunction) \ [BackPropagation](#BackPropagation) \ [Learning rate](#LearningRate) \ [Learning rate decay](#LearningRateDecay) \ [Adaptive learning rate](#AdaptiveLearningRate) \ [Dropout](#Dropout) \ [Dropout keep probability](#DropoutKeepProbability) \ [Target](#Target) \
+[Word Embedding](#WordEmbedding) \ [Continuous Bag of Words [CBOW]](#CBOW) \ [Skip-gram](#Skip-gram) \ [Bag of n-grams](#BagOfNGrams) \ [Recurrent Neural Network [RNN]](#RNN) \ [LSTM](#LSTM) \ [Bidirectional RNN](#BidirectionalRNN) \ [Seq2Seq](#Seq2Seq) \ [NetworkState](#NetworkState) \ [Batch](#Batch) \ [BLEU](#BLEU) \ [Truncated Backpropagation](#TruncatedBackpropagation) \ [One-hot vector](#One-hot_vector) \ [Neighbourhood](#Neighbourhood) \ [Window](#Window) \ [Activation function](#ActivationFunction) \ [BackPropagation](#BackPropagation) \ [Learning rate](#LearningRate) \ [Learning rate decay](#LearningRateDecay) \ [Adaptive learning rate](#AdaptiveLearningRate) \ [Dropout](#Dropout) \ [Dropout keep probability](#DropoutKeepProbability) \ [Target](#Target) \ [Overfitting](#Overfitting) \ [Gradient clipping](#GradientClipping) \ [Negative sampling](#NegativeSampling) \ [Deep Learning](#DeepLearning) \ [Wide Learning](#WideLearning) \ 
   
 <a name="WordEmbedding"></a>**Векторное представление слова** (от англ. Word Embedding) - подход к представлению формы и содержания слова, основанный на модели дистрибутивной семантики. Чаще всего под векторным представлением понимается модель типа Word2Vec. С математической точки зрения векторное представление слова суть отображение, ставящее в соответствие множеству слов некоторого языка множество точек в n-мерном векторном пространстве.
 
@@ -50,21 +50,19 @@ title: Dictionary
 
 <a name="DropoutKeepProbability"></a>**Вероятность сохранения активности нейрона** (от англ. Dropout keep probability) - коэффициент (гиперпараметр), указывающий, с какой вероятностью нейрон останется активен (не будет занулен) при дропауте. {#keep_prob}
 
-<a name="Target>**Целевое значение нейрона** (от англ. Target / Label) - "правильное" значение выходного нейрона
+<a name="Target"></a>**Целевое значение нейрона** (от англ. Target / Label) - "правильное" значение выходного нейрона
 
-**Вычисление градиента** (от англ. Gradient computation) - 
+<a name="Overfitting"></a>**Переобучение(Взрыв градиента)** (от англ. Overfitting) - состояние НС, достигаемое с используемой обучающей выборкой, при котором выделяются значения, касающиеся самой выборки, но не решаемой задачи. В результате переобучения НС показывает отличные результаты на обучающей выборке, но плохие на тестовой.
 
-**Взрыв градиента** (от англ. Overfitting)
+<a name="Underfitting"></a>**Недообучение(Затухание градиента)** (от англ. Underfitting) - состояние НС, при котором обучение не дает существенного уменьшения ошибки.
 
-**Затухание градиента** (от англ. Underfitting)
+<a name="GradientClipping"></a>**Выравнивание градиента** (от англ. Gradient clipping) - метод борьбы с "взрывом" градиента.
 
-**Выравнивание градиента** (от англ. Gradient clipping) - метод борьбы с "взрывом" градиента.
+<a name="NegativeSampling"></a>**Метод отрицательной выборки** (от англ. Negative sampling) - метод обучения РНС типа Word2Vec, основанный на корректировке весов небольшой отрицательной выборки вместо всех отрицательных классов и позволяющий существенно ускорить процесс обучения нейросети. Ссылка: <http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/>
 
-**Метод отрицательной выборки** (от англ. Negative sampling) - метод обучения РНС типа Word2Vec, основанный на корректировке весов небольшой отрицательной выборки вместо всех отрицательных классов и позволяющий существенно ускорить процесс обучения нейросети. Ссылка: <http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/>
+<a name="DeepLearning"></a>**Глубокое обучение** (от англ. Deep Learning) - обучение глубоких нейросетей, т.е. нейросетей с достаточно большим числом слоев нейронов.
 
-**Глубокое обучение** (от англ. Deep Learning) - обучение глубоких нейросетей, т.е. нейросетей с достаточно большим числом слоев нейронов.
-
-**Широкое обучение** (от англ. Wide Learning) - обучение нейросетей с большим числом нейронов в слое признаков.
+<a name="WideLearning"></a>**Широкое обучение** (от англ. Wide Learning) - обучение нейросетей с большим числом нейронов в слое признаков.
 
 **Логит-функция** (от англ. Logit function) - 
 
